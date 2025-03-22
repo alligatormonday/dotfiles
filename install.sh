@@ -3,8 +3,9 @@
 # Create symbolic links
 echo "Creating symbolic links..."
 mkdir -p ~/.config/nvim
-ln -sf ~/dotfiles/nvim/lua ~/.config/nvim/
-ln -sf ~/dotfiles/karabiner ~/.config/
+ln -sf ~/Desktop/Repos/dotfiles/gitconfig/.gitconfig ~/.gitconfig
+ln -sf ~/Desktop/Repos/dotfiles/karabiner ~/.config/karabiner/
+ln -sf ~/Desktop/Repos/dotfiles/nvim/lua ~/.config/nvim/
 
 # Install Homebrew if not installed
 if ! command -v brew &> /dev/null; then
